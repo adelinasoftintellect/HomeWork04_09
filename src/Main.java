@@ -7,11 +7,11 @@ public class Main {
 		System.out.println("Enter size: ");
 		int n = input.nextInt();
 		int a[] = new int[n];
-		for (int i = n; i > 0; i--) {
-			a[i] = i;
+		for (int i = n-1; i >= 0; i--) {
+			a[i] = i+1;
 		}
-		for (int i = n; i > 0; i--) {
-			System.out.println(a[i] + " ");
+		for (int i = n-1; i >= 0; i--) {
+			System.out.print(a[i] + " ");
 		}
 	}
 }
